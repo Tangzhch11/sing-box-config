@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # 配置参数
-BACKEND_URL="http://192.168.8.198:5000"
-SUBSCRIPTION_URL="https://www.xn--5hqx9equq.org/api/v1/client/subscribe?token=07ebfb5c3dd522f757a143817e6bb9e4"
+BACKEND_URL="订阅转换后端地址"
+SUBSCRIPTION_URL="订阅链接"
 TEMPLATE_URL="https://raw.githubusercontent.com/Tangzhch11/sing-box-config/main/config.json"
 CONFIG_FILE="/storage/sing-box/config.json"
 
