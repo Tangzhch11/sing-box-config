@@ -3,7 +3,7 @@
 # 配置参数
 BACKEND_URL="订阅转换后端地址"
 SUBSCRIPTION_URL="机场订阅链接"
-TEMPLATE_URL="https://raw.githubusercontent.com/Tangzhch11/sing-box-config/main/config.json"
+TEMPLATE_URL="https://raw.githubusercontent.com/Tangzhch11/sing-box-config/refs/heads/main/config.json"
 CONFIG_FILE="/storage/sing-box/config.json"
 
 # 构建完整的配置文件 URL
@@ -26,8 +26,8 @@ if [ -f "$CONFIG_FILE" ]; then
 fi
 
 # 等待 20 秒，确保网络稳定
-echo "等待 20 秒以确保网络稳定..."
-sleep 20
+#echo "等待 20 秒以确保网络稳定..."
+#sleep 20
 
 # 定义下载函数
 download_config() {
