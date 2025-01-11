@@ -7,8 +7,8 @@
   
   "experimental": {
     "clash_api": {
-      "external_controller": "192.168.8.198:9095",
-      "external_ui": "/storage/sing-box/ui",
+      "external_controller": "0.0.0.0:9095",
+      "external_ui": "/etc/sing-box/ui",
       "secret": "",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
@@ -16,7 +16,7 @@
     },
   "cache_file": {
     "enabled": true,
-    "path": "/storage/sing-box/cache.db",
+    "path": "/etc/sing-box/cache.db",
     "store_fakeip": false
     }
   },
