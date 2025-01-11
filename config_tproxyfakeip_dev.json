@@ -8,15 +8,15 @@
   "experimental": {
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
-      "external_ui": "/etc/sing-box/ui",
+      "external_ui": "/home/tzc/sing-box/ui",
       "secret": "",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "🚀 节点选择",
+      "external_ui_download_detour": "🎯 全球直连",
       "default_mode": "rule"
     },
   "cache_file": {
     "enabled": true,
-    "path": "/etc/sing-box/cache.db",
+    "path": "/home/tzc/sing-box/cache.db",
     "store_fakeip": true
     }
   },
